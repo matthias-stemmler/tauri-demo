@@ -1,7 +1,9 @@
-# Tauri + React + Typescript
+# Freeport (Tauri demo app)
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+This is a demonstration of Tauri. It lists processes that are listening on ports and provides the option to kill a process.
 
-## Recommended IDE Setup
+## Getting started
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Follow the setup steps in [Tauri Prerequisites](https://v2.tauri.app/start/prerequisites/).
+- Make sure you have the correct version of Node installed (see [.nvmrc](.nvmrc)).
+- Run `corepack enable`, `pnpm install` and `pnpm tauri dev`.
